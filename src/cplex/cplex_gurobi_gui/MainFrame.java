@@ -570,7 +570,7 @@ public class MainFrame extends JFrame implements ActionListener {
 			byRowCheckBox.setSelected(true);
 		} else if (obj == importModelItem) {
 			File file = null;
-			fileChooser = new JFileChooser("D:\\");
+			fileChooser = new JFileChooser("C:\\");
 			fileChooser.setDialogTitle("Open txt file");
 			fileChooser.addChoosableFileFilter(new MyFileFilter("txt"));
 			int result = fileChooser.showOpenDialog(this);
@@ -583,7 +583,7 @@ public class MainFrame extends JFrame implements ActionListener {
 		} else if (obj == exportResultItem) {
 			if (resultsArea.getText().length() != 0) {
 				File file = null;
-				fileChooser = new JFileChooser("D:\\");
+				fileChooser = new JFileChooser("C:\\");
 				fileChooser.setDialogTitle("Save as txt file");
 				FileNameExtensionFilter filter = new FileNameExtensionFilter("文本文档(*.txt)", ".txt");
 				fileChooser.setFileFilter(filter);
@@ -606,7 +606,7 @@ public class MainFrame extends JFrame implements ActionListener {
 			}
 		} else if (obj == loadConfigItem) {
 			File file = null;
-			fileChooser = new JFileChooser("D:\\");
+			fileChooser = new JFileChooser("C:\\");
 			fileChooser.setDialogTitle("Open prm file");
 			fileChooser.addChoosableFileFilter(new MyFileFilter("prm"));
 			int result = fileChooser.showOpenDialog(this);
@@ -662,7 +662,7 @@ public class MainFrame extends JFrame implements ActionListener {
 			}
 		} else if (obj == btnLoad) {
 			File file = null;
-			fileChooser = new JFileChooser("D:\\");
+			fileChooser = new JFileChooser("C:\\");
 			fileChooser.setDialogTitle("Open txt file");
 			fileChooser.addChoosableFileFilter(new MyFileFilter("txt"));
 			int result = fileChooser.showOpenDialog(this);
@@ -677,7 +677,7 @@ public class MainFrame extends JFrame implements ActionListener {
 		} else if (obj == btnSave) {
 			if (resultsCSPArea.getText().length() != 0) {
 				File file = null;
-				fileChooser = new JFileChooser("D:\\");
+				fileChooser = new JFileChooser("C:\\");
 				fileChooser.setDialogTitle("Save as txt file");
 				FileNameExtensionFilter filter = new FileNameExtensionFilter("文本文档(*.txt)", ".txt");
 				fileChooser.setFileFilter(filter);

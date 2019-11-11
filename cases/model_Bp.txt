@@ -1,0 +1,10 @@
+int 0 inf
+int 0 inf
+int 0 inf
+bool
+bool
+bool
+#
+max 6 4 7 -200 -150 -100
+3 2 6 0 0 0 <= 150
+4 3 4 0 0 0 <= 160

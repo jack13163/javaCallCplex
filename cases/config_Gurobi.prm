@@ -1,0 +1,6 @@
+# Gurobi Parameter File Version 7.5.1
+# Relative MIP gap tolerance
+MIPGap 0.1 # 10%
+
+# Optimizer time limit in seconds
+TimeLimit  10 # Seconds
